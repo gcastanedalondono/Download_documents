@@ -18,6 +18,10 @@ header {
    .inactive {
      display:none;
    }
+
+  .color_lista{
+  color:blue;
+  } 
  
    nav {
      display: flex;
@@ -358,6 +362,8 @@ header {
 
 }
 
+
+
 }
 
  }
@@ -539,11 +545,16 @@ header {
   }
    
   .lista {
-    margin: 10px 10px; /* Espaciado entre elementos de la lista */
+    margin: 10px 10px;
+    color:black; /* Espaciado entre elementos de la lista */
   } 
     
   .menu_lista{
     text-decoration: none;  
     
   }
-    
+.color_lista{
+  color:blue;
+}
+
+} 
