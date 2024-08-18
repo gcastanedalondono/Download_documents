@@ -18,10 +18,6 @@ header {
    .inactive {
      display:none;
    }
-
-  .color_lista{
-  color:blue;
-  } 
  
    nav {
      display: flex;
@@ -30,6 +26,10 @@ header {
      border-bottom: 1px solid black;
    }
  
+
+  .color_lista{
+    color:blue;
+    }  
   .fuente {
   
    color: #ECC440;
@@ -80,14 +80,7 @@ header {
      height: 40px;
    }
  
-   .breslevlogo{
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 205px;
-    height: 250px;
-   }
+   
 /*display:block;
     margin-top: 30px;
     justify-content: center;
@@ -112,16 +105,57 @@ header {
 
   } 
 
-  .breslevlogo img{
+  .parrafo_home{
+
+    font-size: 1.1rem;
+    width:100%;
+    text-align: justify;
+    padding: 1rem;
+    line-height: 1.5rem;
+    margin: 1px;
+    
+  }
+
+  .contenedor_home{
+    
+      border: 0,3 rem solid black;
+       
+       align-items: center;
+       display: flex;
+       flex-wrap: wrap;
+       position: relative;
+       padding: 10px;
+       margin-left: 20px;
+
+
+
+  }
+  .breslevlogo img {
  
     display:block;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
-    width: 100px; 
+    height: 70px;
+    width: 70px; 
     margin-top: 20px;
     
   
+  }
+
+  .video_container{
+   
+       align-items: center;
+       border: 0,3 rem solid black;    
+       align-items: center;
+       display: flex;
+       flex-wrap: wrap;
+       position: relative;
+       padding: 10px;
+       margin-left: 30px;
+
+
+
+
   }
 
 
@@ -239,50 +273,7 @@ header {
    
    
     
-    .shapiro {
-      
-      height: 130px;
-      width: 130px;
-   
-    } 
-   
-    .shimon {
-      
-       height: 130px;
-       width: 130px;
-   
-    } 
-   
-    .arush{
-   
-      height: 130px;
-      width: 130px;
-    }
-   
     
-      .c1{
-        width:50%;
-        order:1;
-        text-align: center;
-      }
-    
-      .c2{
-        width:50%;
-        order:2;
-        text-align: center;
-      }
-    
-      .c3{
-        width: 50%;
-        order: 3;
-        text-align: center;
-      }
-    
-        .c4{
-          width: 50%;
-          order:4;
-          text-align: center;
-        }
     
         .videodonacion {
          display:block;
@@ -362,8 +353,6 @@ header {
 
 }
 
-
-
 }
 
  }
@@ -377,6 +366,19 @@ header {
     display: block;
   }
 
+  .video_container {
+       position: absolute;
+       margin: 0 auto;
+       display: flex;
+       justify-content: center;
+       width: 90%;
+      
+       
+  }
+
+  
+
+  
 
    .titulo {
     color: #ECC440;
@@ -415,8 +417,8 @@ header {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 250px;
+    height: 180px;
+    width: 180px;
      margin-top: 7px;
   }
  
@@ -428,6 +430,25 @@ header {
    width: 250px;
    margin-top: 55px;
    left:-20px ;}
+
+   .video_inicial {
+    
+
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 320px;
+   height: 100px;
+   padding: 0px;
+   align-self: center;
+
+
+   }
+
+
+
+
+   
 
    .fb{
     width: 100px;
@@ -467,6 +488,19 @@ header {
 
    }
  
+   .parrafo_home{
+
+    font-size: 1.1rem;
+    width:100%;
+    text-align: justify;
+    padding: 1rem;
+    line-height: 1.5rem;
+    margin: 1px;
+
+
+
+   }
+
    .parrafo {
 
     font-size: 1.1rem;
@@ -485,7 +519,7 @@ header {
     text-align:center;
     padding: 1rem;
     line-height: 1.4rem;
-    margin: 20px;
+    margin: 10px;
 
   }
  
@@ -545,16 +579,11 @@ header {
   }
    
   .lista {
-    margin: 10px 10px;
-    color:black; /* Espaciado entre elementos de la lista */
+    margin: 10px 10px; /* Espaciado entre elementos de la lista */
   } 
     
   .menu_lista{
     text-decoration: none;  
     
   }
-.color_lista{
-  color:blue;
 }
-
-} 
